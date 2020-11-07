@@ -93,3 +93,15 @@ h1 {
 .image:hover img {
     transform: scale(1.5);
 } 
+.kijelentkezes {
+    padding: 8px;
+    background: #17a2b8;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    border-color: #17a2b8;
+}
+.kijelentkezes:hover {
+    text-decoration: none;
+    color: white;
+}
