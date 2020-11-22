@@ -17,18 +17,25 @@ html body {
     color:#D6D7EB;
     cursor: pointer;
 }
-.logo img {
-    width: 30px;
-    margin-top: -7px;
-    margin-right: 48px;
+.your {
+    font-weight: bold;
+    margin-top: 1px;
+}
+.yeet {
+    list-style: none;
+    margin: 0 5px;
+    color:#D6D7EB;
+    cursor: pointer;
+}
+.yeet:hover {
+    list-style: none;
+    margin: 0 5px;
+    color:#D6D7EB;
+    cursor: pointer;
+    text-decoration: none;
 }
 .active {
     color: #6AB1F0!important;
-    text-decoration: none;
-    margin: 0 5px;
-}
-.active:hover {
-    text-decoration: none;
     margin: 0 5px;
 }
 .login {
@@ -44,12 +51,16 @@ html body {
     font-weight: normal;
     transition: 1s;
 }
+.active:hover {
+    text-decoration: none;
+    margin: 0 5px;
+}
 .login:hover {
     text-decoration: none;
     background: #E9967A;
     color: white;
 }
-.faq {
+.faq1 {
     top: 43.5px;
     right: 220px;
     padding: 8px 25px;
@@ -68,11 +79,12 @@ html body {
     color: white;
 }
 .banner {
-    width: 80%;
-    height: 70%;
-    top: 25%;
-    left: 130px;
+    width: 10%;
+    height: 20%;
     position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%,-50%);
     color: #fff;
 }
 .text {
@@ -80,59 +92,15 @@ html body {
     float: left;
 }
 .text h1 {
-    font-size: 43px;
+    font-size: 80px;
     width: 640px;
     position: relative;
     margin-left: 40px;
 }
 .text p {
-    font-size: 20px;
+    font-size: 25px;
     width: 650px;
-    margin: 3px 0 30px 40px;
+    margin: 0 0 30px 40px;
     line-height: 25px;
     color: #919191;
-}
-.picture {
-    width: 50%;
-    float: right;
-}
-.picture img {
-    width: 80%;
-    margin-top: -20px;
-    padding-left: 40px;
-}
-.learn {
-    position: absolute;
-    top: 32%;
-    left: 6%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #CD5C5C;
-    border-radius: 15px;
-    padding: 5px 10px;
-    transition: 1s;
-    cursor: pointer;
-}
-.learn:hover {
-    text-decoration: none;
-    color: white;
-    background: #CD5C5C;
-}
-.your {
-    font-weight: bold;
-    margin-top: 1px;
-}
-.yeet {
-    list-style: none;
-    margin: 0 5px;
-    color:#D6D7EB;
-    cursor: pointer;
-}
-.yeet:hover {
-    list-style: none;
-    margin: 0 5px;
-    color:#D6D7EB;
-    cursor: pointer;
-    text-decoration: none;
 }

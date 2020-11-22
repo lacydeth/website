@@ -53,9 +53,8 @@ main {
     /* min-height: calc(100vh - 66px - 56px); */
     width: 90vw;
     margin: 0 auto;
-    padding: 398px;
     padding-bottom: 56px;
-    min-height: 86.8vh;
+    min-height: 85vh;
 }
 .cards {
     width: 20%;
@@ -81,6 +80,7 @@ button {
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
+    text-align: center;
 }
 button:hover {
     background-color: gray;
@@ -89,16 +89,6 @@ button:hover {
 .btn {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.website {
-    position: absolute;
-    top: 50%;
-    left: 49%;
-    transform: translate(-50%,-50%);
-}
-.website h1 {
-    color: black;
-    font-size: 70px;
 }
 .youtube {
     top: 58%;
@@ -148,4 +138,41 @@ footer {
     background-color: #EBEBEB ;
     bottom: 0;
 
+}
+.drug {
+    font-size: 50px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.h1, h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.image {
+    overflow: ;
+}
+.image img {
+    transition: all 1.5s ease;
+}
+.image:hover img {
+    transform: scale(1.5);
+} 
+
+.vonal {
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    height: 10px;
+}
+.mdma {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.lsd {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
 }
